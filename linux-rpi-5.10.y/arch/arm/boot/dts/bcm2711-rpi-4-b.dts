@@ -80,6 +80,13 @@
 		mygpio = <&gpio 24 GPIO_ACTIVE_LOW>;
 		status="okay";
 	};
+	test_key:{
+		compatible="keys";
+		pinctrl-names = "default";
+		pinctrl-0 = <&pinctrl_gpio25>;
+		mykey = <&gpio 25 GPIO_ACTIVE_LOW>;
+		status="okay";
+	};
 };
 
 &ddc0 {

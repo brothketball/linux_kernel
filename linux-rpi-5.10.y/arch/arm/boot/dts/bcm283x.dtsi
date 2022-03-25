@@ -138,7 +138,11 @@
 			pinctrl_gpio24:pinctrl_gpio24 {
 				brcm,pins = <24>;
 				brcm,function = <BCM2835_FSEL_GPIO_OUT>;
-			};//实验节点
+			};//实验节点1
+			pinctrl_gpio25:pinctrl_gpio25 {
+				brcm,pins = <25>;
+				brcm,function = <BCM2835_FSEL_GPIO_IN>;
+			};//实验节点2
 			dpi_gpio0: dpi_gpio0 {
 				brcm,pins = <0 1 2 3 4 5 6 7 8 9 10 11
 					     12 13 14 15 16 17 18 19
